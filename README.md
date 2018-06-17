@@ -5,4 +5,5 @@ Rate-a-restro | Chingu Voyage-6 | https://chingu.io/
  
  # Team - 
 Archit kaushik
-MarkA
+Mark
+Redmund
