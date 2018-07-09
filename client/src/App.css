@@ -1,0 +1,88 @@
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 25px;
+  font-family: cursive, serif;
+  font-size: 18px;
+}
+
+.division1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 150px;
+  width: 400px;
+  border: solid whitesmoke 2px;
+  margin:10px;
+  justify-content: flex-start; 
+  align-items: flex-start;
+   
+}
+
+.division1:hover {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 150px;
+  width: 400px;
+  border: solid rgba(2, 1, 1, 0.671) 2px;
+  margin:10px;
+  justify-content: flex-start; 
+  align-items: flex-start;
+}
+
+.divison {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin:10px;
+  justify-content: flex-start; 
+  align-items: flex-start;
+}
+
+.area {
+  width: 350px;
+  height: 80px;
+}
+
+input, label {
+     margin: 5px;
+}
+
+.submit {
+  color: wheat;
+  background: black;
+  border-radius: 50px;
+  font-size: 12px;
+
+}
+
+.submit:hover {
+  color: rgb(2, 2, 2);
+  background: rgb(255, 243, 243);
+  border-radius: 50px;
+  font-size: 12px;
+}
+
+.divihead {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.division2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 150px;
+  width: 400px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
