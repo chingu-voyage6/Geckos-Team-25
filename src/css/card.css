@@ -1,0 +1,128 @@
+.card {
+  perspective: 1500px;
+  -moz-perspective: 1500px;
+  position: relative;
+  width: 79%;
+  max-width: 300px;
+  min-height: 370px;
+}
+
+.card-side {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backface-visibility: hidden;
+  height: 100%;
+  transition: all 0.9s ease;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 20px 57px 0 rgba(51, 51, 51, 0.1);
+}
+
+.card-front {
+}
+.card:hover .card-front {
+  transform: rotateY(-179deg);
+}
+.card-top {
+  height: 250px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://paris.peninsula.com/en/~/media/Images/Paris/NEW/dining/loiseau-blanc/ppr-oiseau-blanc-interior-evening-1074.ashx?mw=952");
+}
+
+.card-top-info {
+  position: absolute;
+  color: white;
+  font-weight: 700;
+}
+
+.top-1 {
+  left: 5%;
+  top: 5%;
+  border-bottom: 2px solid white;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.top-2 {
+  right: 5%;
+  top: 5%;
+}
+
+.bottom-1 {
+  left: 5%;
+  bottom: 5%;
+}
+.bottom-2 {
+  right: 5%;
+  bottom: 5%;
+}
+
+.card-desc {
+  text-align: left;
+  padding: 15px;
+  color: rgb(63, 63, 63);
+}
+
+.card-back {
+  background-image: linear-gradient(to right bottom, #667eea, #764ba2);
+  transform: rotateY(179deg);
+  position: relative;
+  color: #fff;
+  text-align: center;
+  height: 370px;
+}
+
+.card-back-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.card:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+.card-top-feature {
+  width: 100%;
+  height: 100%;
+}
+
+.desc-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: sans-serif;
+  margin-bottom: 7px;
+  color: #f76c6c;
+}
+.desc-address,
+.desc-type,
+.desc-time {
+  line-height: 20px;
+  font-size: 14px;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  margin: 5px 0;
+  padding: 15px 5px;
+  width: 100%;
+  max-width: 250px;
+  margin: 10px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s;
+  position: relative;
+  border: none;
+  cursor: pointer;
+}
+.btn-white {
+  color: black;
+  background: #fff;
+}
