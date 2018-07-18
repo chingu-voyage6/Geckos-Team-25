@@ -1,0 +1,80 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 25px;
+  font-family: cursive, serif;
+  font-size: 18px;
+}
+
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 400px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 250px;
+  width: 600px;
+  border: solid whitesmoke 2px;
+  margin: 15px;
+  justify-content: space-around; 
+  align-items: center;
+  box-shadow: 0 8px 6px -6px black;
+
+}
+
+input {
+  width: 30px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.textarea {
+   width: 250px;
+}
+
+.card:hover {
+  border: solid rgba(160, 160, 160, 0.157) 2px;
+  box-shadow: 0px 8px 6px -6px grey;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: center; 
+  align-items: center;
+}
+
+
+.submit {
+  width: 150px;
+  color: white;
+  background: #f76c6c;
+  border-radius: 50px;
+  font-size: 12px;
+
+}
+
+.submit:hover {
+  color: #f76c6c;
+  background: white;
+  border-radius: 50px;
+  font-size: 12px;
+}
+
+
