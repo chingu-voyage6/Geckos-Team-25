@@ -45,11 +45,11 @@ class Form extends Component {
         <div className="card1">
         <label> {"What went wrong ??"} </label>
         <div className="card2">
-        <input type={"checkbox"} name={"Impolte Staff"} value={"Impolite Staff"}/> {"Impolite Staff"}
-        <input type={"checkbox"} name={"Subpar Food Quality"} value={"Subpar Food Quality"}/> {"Subpar Food Quality"}
-        <input type={"checkbox"} name={"Unhygienic"} value={"Unhygienic"}/> {"Unhygienic"}
-        <input type={"checkbox"} name={"Waste of money"} value={"Waste of money"}/> {"Waste of money"}
-        <input type={"checkbox"} name={"Rude guests"} value={"Rude guests"}/> {"Rude guests"}
+        <input type={"checkbox"} id="c1" name={"Impolte Staff"} value={"Impolite Staff"}/> {"Impolite Staff"}
+        <input type={"checkbox"} id="c1" name={"Subpar Food Quality"} value={"Subpar Food Quality"}/> {"Subpar Food Quality"}
+        <input type={"checkbox"} id="c1" name={"Unhygienic"} value={"Unhygienic"}/> {"Unhygienic"}
+        <input type={"checkbox"} id="c1" name={"Waste of money"} value={"Waste of money"}/> {"Waste of money"}
+        <input type={"checkbox"} id="c1" name={"Rude guests"} value={"Rude guests"}/> {"Rude guests"}
         </div>
         </div>
         <div className="card1">

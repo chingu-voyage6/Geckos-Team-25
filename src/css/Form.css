@@ -1,8 +1,12 @@
+body {
+  background: #f76c6c;
+}
 
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 25px;
   font-family: cursive, serif;
@@ -28,12 +32,12 @@
   flex-wrap: wrap;
   height: 250px;
   width: 600px;
-  border: solid whitesmoke 2px;
+  border: solid #8d00007c 2px;
   margin: 15px;
-  justify-content: space-around; 
+  justify-content: space-evenly; 
   align-items: center;
-  box-shadow: 0 8px 6px -6px black;
-
+  box-shadow: 0 8px 6px -6px #8d00007c;
+  
 }
 
 input {
@@ -42,13 +46,18 @@ input {
   padding: 5px;
 }
 
+input[type="checkbox"] + label {
+   background: #8d00007c;
+}
+
 .textarea {
    width: 250px;
 }
 
 .card1:hover {
-  border: solid rgba(160, 160, 160, 0.157) 2px;
-  box-shadow: 0px 7px 7px 0px grey;
+  border: solid #410101d7 2px;
+  box-shadow: 0px 7px 7px 0px #410101d7;
+  flex: 1;
 }
 
 .card2 {
@@ -56,22 +65,43 @@ input {
   flex-direction: row;
   flex-wrap: wrap;
   margin: 10px;
-  justify-content: center; 
-  align-items: center;
+  justify-content: center;
+ 
 }
 
+.card3 {
+  font-family: cursive, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 35em;
+  justify-content: center;
+}
+
+.card4 {
+  font-size: 20px;
+  padding: 5em;
+  border: solid #8d00007c 2px;
+  box-shadow: 0 8px 6px -6px #8d00007c;
+}
+
+.card4:hover {
+  border: solid #410101d7 2px;
+  box-shadow: 0px 7px 7px 0px #410101d7;
+ 
+}
 
 .submit {
   width: 150px;
   color: white;
-  background: #f76c6c;
+  background: #8d00007c;
   border-radius: 50px;
   font-size: 12px;
 
 }
 
 .submit:hover {
-  color: #f76c6c;
+  color: #8d00007c;
   background: white;
   border-radius: 50px;
   font-size: 12px;

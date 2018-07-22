@@ -32,7 +32,7 @@ class ReviewPage extends Component {
           <NavLink exact style={def} activeClassName="btn-red" to='/form'> Rate </NavLink>
           </div>
  
-          <div className="btn btn-red">Add a Story</div>
+          <div className="btn btn-red"> Add a Story </div>
         </div>
 
         <div className="review-container">
