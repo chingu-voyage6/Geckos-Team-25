@@ -3,10 +3,21 @@ import "../css/rev_page.css";
 import "../css/card.css";
 import Table from "./Table";
 import Card from "./Card";
+import Form from "./Form";
 import Experiences from "./Experiences";
+import { NavLink } from 'react-router-dom';
 
 class ReviewPage extends Component {
   render() {
+    const active = {
+      color: '#f76c6c',
+      textDecoration: 'none'
+    };
+    const def = {
+      textDecoration: 'none',
+      color: 'white'
+    }
+    
     return (
       <div className="review-page">
         <div className="header">
@@ -17,7 +28,10 @@ class ReviewPage extends Component {
         </div>
 
         <div className="top-links">
-          <div className="btn btn-red">Rate</div>
+          <div className="btn btn-red"> 
+          <NavLink exact style={def} activeClassName="btn-red" to='/form'> Rate </NavLink>
+          </div>
+ 
           <div className="btn btn-red">Add a Story</div>
         </div>
 
@@ -32,6 +46,7 @@ class ReviewPage extends Component {
             <div className="review-option">Gallery</div>
           </div>
         </div>
+       
         <Card />
         <Table />
         <Experiences />
