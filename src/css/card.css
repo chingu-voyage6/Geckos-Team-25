@@ -1,3 +1,6 @@
+body {
+  background: #fff;
+}
 .card {
   perspective: 1500px;
   -moz-perspective: 1500px;

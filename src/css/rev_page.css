@@ -1,3 +1,7 @@
+body {
+  background: #fff;
+}
+
 .review-page {
   flex-direction: column;
 }
